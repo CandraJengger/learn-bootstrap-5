@@ -1,0 +1,44 @@
+* {
+  font-family: 'Poppins', sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.zet-dots {
+  font-family: 'Zen Dots', cursive;
+}
+
+.poppins {
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Navbar */
+.navbar {
+  min-height: 80px !important;
+}
+
+/* Hero */
+.hero-banner {
+  width: 70% !important;
+  height: auto;
+}
+
+.card-hero {
+  width: 100% !important;
+  max-width: 400px;
+}
+
+@media screen and (min-width: 997px) {
+  .hero-banner {
+    width: 100% !important;
+    transform: translate(-90px, -20px);
+  }
+
+  .card-hero {
+    width: 100% !important;
+    max-width: 400px;
+    transform: translateY(-30px);
+  }
+}
